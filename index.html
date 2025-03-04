@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrés Bella"/>
+    <meta name="description" content="Index del examen de LLMM"/>
+    <link rel="icon" href="img/arcade.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+    <title>StreetFighter-UNIR</title>
+</head>
+<body>
+
+    <h1>To live is to fight, to fight is to live!</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <td colspan="4" class="cabecera"> Street Fighter</td>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>
+                <div class="nombre">Ken</div>
+                <img src="./img/ken.png" alt="Ken">
+            </td>
+            <td>
+                <div class="nombre">Chun Li</div>
+                <img src="./img/ChunLi.png" alt="Chung li">
+            </td>
+            <td>
+                <div class="nombre">Zangief</div>
+                <img src="./img/Zangief.png" alt="Ken">
+            </td>
+            <td>
+                <div class="nombre">Dhalsim</div>
+                <img src="./img/Dhalsim.png" alt="Ken">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="nombre">Ryu</div>
+                <img src="./img/Ryu.png" alt="Ken">
+            </td>
+            <td>
+                <div class="nombre">E Honda</div>
+                <img src="./img/EHonda.png" alt="Ken">
+            </td>
+            <td>
+                <div class="nombre">Blanka</div>
+                <img src="./img/Blanka.png" alt="Ken">
+            </td>
+            <td>
+                <div class="nombre">Guille</div>
+                <img src="./img/Guille.png" alt="Ken">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="nombre">THawk</div>
+                <img src="./img/THawk.png" alt="Ken">
+            </td>
+            <td>
+                <div class="nombre">Feilong</div>
+                <img src="./img/Feilong.png" alt="Ken">
+            </td>
+            <td>
+                <div class="nombre">DeeJay</div>
+                <img src="./img/DeeJay.png" alt="Ken">
+            </td>
+            <td>
+                <div class="nombre">Cammy</div>
+                <img src="./img/Cammy.png" alt="Ken">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="nombre">Balrog</div>
+                <img src="./img/Balrog.png" alt="Ken">
+            </td>
+            <td>
+                <div class="nombre">Vega</div>
+                <img src="./img/Vega.png" alt="Ken">
+            </td>
+            <td>
+                <div class="nombre">Sagat</div>
+                <img src="./img/Sagat.png" alt="Ken">
+            </td>
+            <td>
+                <div class="nombre">MBison</div>
+                <img src="./img/MBison.png" alt="Ken">
+            </td>
+        </tr>
+    </table>
+
+    <h2>Formulario de inscripción para jugar al Street Fighter</h2>
+
+    <div id="formulario">
+        <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" name="formulario breaking bad" autocomplete="on" target="_blank">
+
+            <fieldset class="elemento">
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre:</label> <input type="text" id="nombre" required>
+                <label for="apellidos">Apellidos:</label> <input type="text" id="apellidos" required>
+                <label for="apellidos">Dirección Postal</label> <input type="text" id="apellidos" required>
+                <label for="dni">Nick:</label> <input type="text" id="dni" placeholder="12345678X">
+                <label for="correo">Correo electrónico:</label> <input type="email" id="correo" placeholder="correo@dominio.com" required>
+            </fieldset>
+    
+           <fieldset>
+            <legend>Sexo Usuario</legend>
+                <label>Sexo:</label>
+                <input type="radio" name="sexo" value="hombre" id="hombre">                    
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="sexo" value="mujer" id="mujer">
+                <label for="mujer">Mujer</label>
+                <input type="radio" name="sexo" value="prefiero no decirlo" id="prefiero">
+                <label for="mujer">Prefiero no decirlo</label>
+            </fieldset>
+
+            <fieldset>
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label> <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">                    
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Personajes</legend>
+                    <label for="personajes">Selecciona el personaje: </label>
+                        <select name="personajes" id="personajes">
+                            <option value="1">Blanka</option>
+                            <option value="2">DeeJay</option>
+                            <option value="3">Ken</option>
+                            <option value="4">Feilong</option>
+                            <option value="5">Ryu</option>
+                            <option value="6">Otros</option>
+                        </select>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Comentarios</legend>
+                    <textarea id="comentarios" placeholder="Escribe lo que quieras" maxlength="100"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            
+        </form>
+    </div>
+    
+</body>
+</html>
